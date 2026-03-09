@@ -1,0 +1,26 @@
+{
+  "name": "tim-williams-osteopaths",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reubendawe/Tim-Williams-Osteopaths.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reubendawe/Tim-Williams-Osteopaths/issues"
+  },
+  "homepage": "https://github.com/reubendawe/Tim-Williams-Osteopaths#readme",
+  "devDependencies": {
+    "browser-sync": "^3.0.4",
+    "gulp": "^5.0.1",
+    "gulp-sass": "^6.0.1",
+    "sass": "^1.97.3"
+  }
+}
