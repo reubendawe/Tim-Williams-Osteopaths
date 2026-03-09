@@ -1,0 +1,11 @@
+# Ignore Mac system junk
+.DS_Store
+Thumbs.db
+
+# Ignore Node dependencies (Very important!)
+node_modules/
+dist/
+npm-debug.log*
+
+# Ignore sensitive WP files if they happen to be here
+wp-config.php
