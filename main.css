@@ -1,12 +1,13 @@
-
 /*
  * Theme Name: Tim Williams Osteopaths Theme
  * Author: Reuben Dawe UI & Web Development
  * Version: 1.0
  */
+h1 {
+  color: red;
+  text-decoration: underline;
+}
 
-@use 'variables';
-@use 'header' as *;
-@use 'footer';
-
-// Insert main styles here
+.footer-bg {
+  background-color: cyan;
+}
