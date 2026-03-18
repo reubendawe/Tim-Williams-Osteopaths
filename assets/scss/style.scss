@@ -1,1 +1,19 @@
+// External fonts
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Outfit:wght@400;600;700&display=swap');
+
+// Project files
+@import 'variables';
 @import 'header';
+
+body {
+  font-family: $brand-body;
+  line-height: 1.25;
+  color: $brand-neutral-900;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  font-family: $brand-heading;
+  font-size: 132px;
+  margin-bottom: 1rem;
+}

@@ -1,5 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Outfit:wght@400;600;700&display=swap");
 body {
-  background-color: red;
+  font-family: "Inter", sans-serif;
+  line-height: 1.25;
+  color: #171713;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  font-family: "Outfit", sans-serif;
+  font-size: 132px;
+  margin-bottom: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */
