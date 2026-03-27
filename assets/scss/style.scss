@@ -4,6 +4,7 @@
 // Project files
 @import 'variables';
 @import 'header';
+@import 'blocks/hero';
 
 body {
   font-family: $brand-body;
@@ -15,5 +16,8 @@ body {
 h1 {
   font-family: $brand-heading;
   font-size: 132px;
+  font-weight: $weight-light;
+  line-height: 120px;
   margin-bottom: 1rem;
+  color: $brand-neutral-100;
 }
