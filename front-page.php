@@ -6,4 +6,6 @@
 
 <?php get_template_part('template-parts/blocks/testimonials'); ?>
 
+<?php get_template_part('template-parts/blocks/pricing'); ?>
+
 <?php get_footer(); ?>

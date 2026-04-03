@@ -108,6 +108,73 @@ h1 {
   color: #F8F8F8;
 }
 
+.pricing-section {
+  background-color: #384A5D;
+  padding-bottom: 150px;
+  color: #F8F8F8;
+}
+.pricing-section h2 {
+  font-family: "Outfit", sans-serif;
+  font-size: 72px;
+  color: #F8F8F8;
+  margin-bottom: 50px;
+}
+.pricing-section .pricing-card {
+  border: 1px solid #F8F8F8;
+  padding: 40px 30px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.pricing-section .pricing-card .treatment-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.pricing-section .pricing-card .price {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.pricing-section .pricing-divider {
+  background-color: #F8F8F8;
+  opacity: 1;
+  height: 1px;
+  margin: 30px 0;
+  border: none;
+}
+.pricing-section .pricing-features {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 40px;
+  flex-grow: 1;
+}
+.pricing-section .pricing-features li {
+  margin-bottom: 15px;
+  font-size: 1rem;
+  display: flex;
+  align-items: flex-start;
+}
+.pricing-section .pricing-features li .tick {
+  margin-right: 12px;
+  font-weight: bold;
+}
+.pricing-section .btn-outline-neutral {
+  color: #F8F8F8;
+  border: 1px solid #F8F8F8;
+  border-radius: 0;
+  padding: 12px 25px;
+  width: 100%;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+.pricing-section .btn-outline-neutral:hover {
+  background-color: #F8F8F8;
+  color: #384A5D;
+}
+.pricing-section .pricing-footer-text {
+  color: #F8F8F8;
+}
+
 body {
   font-family: "Inter", sans-serif;
   line-height: 1.25;
