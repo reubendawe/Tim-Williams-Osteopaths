@@ -9,7 +9,10 @@ h1 {
 .hero-section {
   background-color: #384A5D;
   height: 930px;
-  margin-bottom: 137px;
+  width: 100%;
+  margin-bottom: 70px;
+  position: relative;
+  overflow: visible;
 }
 
 .hero-main-img-wrapper {
@@ -24,6 +27,12 @@ h1 {
   padding-left: 90px;
   z-index: 2;
   position: relative;
+}
+.hero-header h1 {
+  font-family: "Outfit", sans-serif;
+  font-size: 132px;
+  margin-bottom: 1rem;
+  color: #F8F8F8;
 }
 
 .hero-overhang-img {
@@ -43,20 +52,21 @@ h1 {
     display: none;
   }
 }
+.experience-section {
+  padding-top: 70px;
+}
+.experience-section h2 {
+  font-family: "Outfit", sans-serif;
+  font-size: 72px;
+  margin-bottom: 1rem;
+  color: #1F2A3F;
+}
+
 body {
   font-family: "Inter", sans-serif;
   line-height: 1.25;
   color: #171713;
   -webkit-font-smoothing: antialiased;
-}
-
-h1 {
-  font-family: "Outfit", sans-serif;
-  font-size: 132px;
-  font-weight: 300;
-  line-height: 120px;
-  margin-bottom: 1rem;
-  color: #F8F8F8;
 }
 
 /*# sourceMappingURL=style.css.map */

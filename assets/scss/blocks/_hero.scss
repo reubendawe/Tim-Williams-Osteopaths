@@ -9,7 +9,10 @@ h1 {
 .hero-section {
   background-color: $brand-secondary-500;
   height: 930px;
-  margin-bottom: 137px;
+  width: 100%;
+  margin-bottom: 70px;
+  position: relative;
+  overflow: visible;
 }
 
 .hero-main-img-wrapper {
@@ -23,7 +26,13 @@ h1 {
   padding-top: 200px;
   padding-left: 90px;
   z-index: 2;
-  position: relative;
+  position: relative; 
+  h1 {
+  font-family: $brand-heading;
+  font-size: 132px;
+  margin-bottom: 1rem;
+  color: $brand-neutral-100;
+  }
 }
 
 .hero-overhang-img {
