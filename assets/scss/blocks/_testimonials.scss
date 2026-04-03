@@ -1,0 +1,50 @@
+.testimonials-section {
+    padding-bottom: 150px;
+    
+    // 50/50 colour split
+    background: linear-gradient(
+        to bottom, 
+        #ffffff 50%, 
+        $brand-secondary-500 50%
+    );
+
+    h2 {
+        font-family: $brand-heading;
+        font-size: 72px;
+        color: $brand-primary-500;
+        margin-bottom: 50px;
+    }
+}
+
+.testimonial-card {
+    background-color: $brand-neutral-500;
+    padding: 40px;
+    height: 600px;
+    color: $brand-neutral-100; 
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+    .stars {
+        color: $brand-neutral-900;
+        font-size: 1.2rem;
+    }
+
+    .client-name {
+        font-weight: bold;
+        margin-bottom: 15px;
+        .role {
+            font-weight: normal;
+            opacity: 0.8;
+        }
+    }
+
+    .testimonial-text {
+        font-size: 1.1rem;
+        line-height: 1.6;
+    }
+}
+
+.testimonials-section .text-white p {
+    color: $brand-neutral-100;
+}

@@ -8,8 +8,8 @@
     <div class="container-fluid position-relative h-100 hero-section">
         <div class="row align-items-center h-100">
 
-            <div class="col-lg-7 hero-header">
-                <h1>
+             <div class="col-lg-7 hero-header">
+               <!-- <h1>
                     Tim Williams Osteopaths
                 </h1>
                 <div class="mt-4">
@@ -17,7 +17,8 @@
                         Book an appointment with me
                     </a>
                 </div>
-            </div>
+                -->
+            </div> 
 
             <div class="hero-main-img-wrapper">
                 <!-- <?php echo wp_get_attachment_image(6, 'large'); ?> --> 

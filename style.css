@@ -54,6 +54,7 @@ h1 {
 }
 .experience-section {
   padding-top: 70px;
+  padding-bottom: 150px;
 }
 .experience-section h2 {
   font-family: "Outfit", sans-serif;
@@ -64,6 +65,47 @@ h1 {
 .experience-imgs {
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+.testimonials-section {
+  padding-bottom: 150px;
+  background: linear-gradient(to bottom, #ffffff 50%, #384A5D 50%);
+}
+.testimonials-section h2 {
+  font-family: "Outfit", sans-serif;
+  font-size: 72px;
+  color: #1F2A3F;
+  margin-bottom: 50px;
+}
+
+.testimonial-card {
+  background-color: #999999;
+  padding: 40px;
+  height: 600px;
+  color: #F8F8F8;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.testimonial-card .stars {
+  color: #171713;
+  font-size: 1.2rem;
+}
+.testimonial-card .client-name {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.testimonial-card .client-name .role {
+  font-weight: normal;
+  opacity: 0.8;
+}
+.testimonial-card .testimonial-text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.testimonials-section .text-white p {
+  color: #F8F8F8;
 }
 
 body {
