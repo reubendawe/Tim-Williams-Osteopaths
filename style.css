@@ -58,8 +58,12 @@ h1 {
 .experience-section h2 {
   font-family: "Outfit", sans-serif;
   font-size: 72px;
-  margin-bottom: 1rem;
   color: #1F2A3F;
+}
+
+.experience-imgs {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 body {
