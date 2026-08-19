@@ -8,4 +8,6 @@
 
 <?php get_template_part('template-parts/blocks/pricing'); ?>
 
+<?php get_template_part('template-parts/blocks/primary-cta'); ?>
+
 <?php get_footer(); ?>

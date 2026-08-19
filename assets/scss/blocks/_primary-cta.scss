@@ -1,0 +1,183 @@
+.primary-cta {
+
+    color: $brand-neutral-100;
+    background-color: $brand-secondary-500;
+
+    .cta-content {
+        position: relative;
+        min-height: 740px;
+    }
+
+    // --------------------------------------------------------
+    // Left / copy
+    // --------------------------------------------------------
+
+    .cta-copy-col {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 100px 7%;
+    }
+
+    .cta-title {
+        max-width: 600px;
+
+        margin: 0 0 28px;
+
+        color: $brand-neutral-100;
+        font-family: $brand-heading;
+        font-size: clamp(2.5rem, 4vw, 3rem);
+        font-weight: $weight-light;
+        line-height: 1.2;
+        letter-spacing: -0.04em;
+    }
+
+    p {
+        max-width: 600px;
+
+        margin: 0 0 24px;
+
+        color: $brand-neutral-100;
+        font-family: $brand-body;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.55;
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        &:last-of-type {
+            margin-bottom: 32px;
+        }
+    }
+
+    .cta-button {
+        display: inline-flex;
+        align-items: center;
+        align-self: flex-start;
+        gap: 12px;
+
+        padding: 11px 22px;
+
+        color: $brand-neutral-100;
+        border: 1px solid rgba($brand-neutral-100, 0.8);
+        background-color: transparent;
+
+        font-family: $brand-body;
+        font-size: 0.9375rem;
+        font-weight: 400;
+        line-height: 1;
+        text-decoration: none;
+
+        transition:
+                color 0.25s ease,
+                background-color 0.25s ease,
+                border-color 0.25s ease;
+
+        &:hover,
+        &:focus-visible {
+            color: $brand-primary-900;
+            border-color: $brand-neutral-100;
+            background-color: $brand-neutral-100;
+        }
+
+        &:focus-visible {
+            outline: 2px solid $brand-tertiary-500;
+            outline-offset: 3px;
+        }
+    }
+
+    .cta-arrow {
+        display: inline-block;
+
+        font-size: 1.5rem;
+        font-weight: $weight-light;
+        line-height: 0;
+
+        transition: transform 0.25s ease;
+    }
+
+    .cta-button:hover .cta-arrow,
+    .cta-button:focus-visible .cta-arrow {
+        transform: translateX(3px);
+    }
+
+    .cta-image-col {
+        position: relative;
+
+        background-color: $brand-primary-900;
+    }
+
+    .cta-image-wrapper {
+        position: relative;
+
+        width: 100%;
+        height: 100%;
+        min-height: 740px;
+
+        overflow: hidden;
+    }
+
+    .cta-image-wrapper img {
+        display: block;
+
+        width: 100%;
+        height: 100%;
+
+        object-fit: cover;
+        object-position: center center;
+    }
+
+
+    @media (max-width: 991.98px) {
+
+        .cta-content {
+            min-height: auto;
+        }
+
+        .cta-copy-col {
+            padding: 80px 8%;
+        }
+
+        .cta-image-wrapper {
+            min-height: 600px;
+        }
+    }
+
+    @media (max-width: 767.98px) {
+
+        .cta-copy-col {
+            padding: 65px 30px;
+        }
+
+        .cta-title {
+            font-size: 2.35rem;
+        }
+
+        .cta-image-wrapper {
+            min-height: 500px;
+        }
+    }
+
+    @media (max-width: 575.98px) {
+
+        .cta-copy-col {
+            padding: 55px 24px;
+        }
+
+        .cta-title {
+            margin-bottom: 24px;
+            font-size: 2.1rem;
+        }
+
+        p {
+            font-size: 0.9375rem;
+        }
+
+        .cta-image-wrapper {
+            min-height: 420px;
+        }
+    }
+}
