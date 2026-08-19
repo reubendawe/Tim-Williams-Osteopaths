@@ -9,31 +9,31 @@
             <nav class="site-footer__nav" aria-label="Footer navigation">
                 <ul class="site-footer__nav-list">
                     <li class="site-footer__nav-item">
-                        <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
+                        <a href="#hero">
                             Home
                         </a>
                     </li>
 
                     <li class="site-footer__nav-item">
-                        <a href="<?php echo esc_url( home_url( '/about/' ) ); ?>">
+                        <a href="#experience">
                             About
                         </a>
                     </li>
 
                     <li class="site-footer__nav-item">
-                        <a href="<?php echo esc_url( home_url( '/testimonials/' ) ); ?>">
+                        <a href="#testimonials">
                             Testimonials
                         </a>
                     </li>
 
                     <li class="site-footer__nav-item">
-                        <a href="<?php echo esc_url( home_url( '/services/' ) ); ?>">
+                        <a href="#">
                             Services
                         </a>
                     </li>
 
                     <li class="site-footer__nav-item">
-                        <a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>">
+                        <a href="#cta">
                             Contact
                         </a>
                     </li>
